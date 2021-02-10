@@ -489,11 +489,13 @@ mark,
 }
 
 .img-fluid-half {
-  max-width: 46%;
+  max-width: 47%;
   height: auto;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
+
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -587,7 +589,16 @@ pre code {
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
+  
   }
+}
+@media (max-width:1200px) {
+        .img-fluid-half {
+  max-width: 100%;
+  height: auto;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
 }
 .row {
   display: flex;
@@ -10130,8 +10141,24 @@ h3 {
     padding-bottom: 0rem;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.5em;
+    font-size: 1.2rem;
   }
+  #mainNav.navbar-shrink a.nav-link {
+    font-size: 0.8rem;
+    transition: 0.3s; 
+  }
+  a.nav-link {
+    font-size: 1rem;
+    transition: 0.3s; 
+}
+
+.logo{
+    transition: 0.3s;  
+    width: 100px;
+}
+.navbar-shrink .logo{
+    transition: 0.3s;
+    width: 50px;
 }
 .masthead {
   padding-top: calc(6rem + 74px);
