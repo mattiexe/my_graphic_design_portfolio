@@ -570,10 +570,17 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-
+@media (min-width: 360px) {
+    #mainNav .navbar-toggler{
+    width:100%;
+    }
+}
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
+  }
+    #mainNav .navbar-toggler{
+    width:20%;
   }
 }
 @media (min-width: 768px) {
@@ -594,20 +601,28 @@ pre code {
 }
 @media (max-width:1200px) {
         .img-fluid-half {
-  max-width: 100%;
-  height: auto;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-}
+            max-width: 100%;
+            height: auto;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+    } 
         .logo {
-        width: 50px;
+            width: 50px;
+            margin: 15%;
     }
-    .masthead .masthead-avatar {
-    width: 15rem;
+        .navbar-brand{
+        margin-right: 0% !important;
     }
-    .masthead{
+        #mainNav .navbar-brand{
+            font-size: 1rem;
+            float: left;
+    }
+        .masthead .masthead-avatar {
+            width: 15rem;
+    }
+        .masthead{
           padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+        padding-bottom: 6rem;
     }
 }
 .row {
@@ -844,9 +859,9 @@ pre code {
 .offset-11 {
   margin-left: 91.6666666667%;
 }
-@media (min-width:360px) {
+@media (min-width: 576px) {
     .logo {
-    width: 0px;
+    width: 50px;
     }
 }
 @media (min-width: 576px) {
@@ -6122,7 +6137,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #212529 !important;
+  background-color: #1c0f1a !important;
 }
 
 .bg-secondary {
@@ -10121,7 +10136,7 @@ h3 {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #fa5c52;
+  color: #FBA49E;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
