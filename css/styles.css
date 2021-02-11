@@ -479,15 +479,25 @@ mark,
   max-width: 100%;
   height: auto;
 }
-
-.smaller {
-    max-width: 50%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+@media (min-width: 1024px){
+    .smaller {
+        max-width: 50% !important;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .smaller.col-lg-4 {
+        flex: 0% !important;
+    }
 }
-
+.smaller {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 .img-fluid-half {
   max-width: 47%;
   height: auto;
