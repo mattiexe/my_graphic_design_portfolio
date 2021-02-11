@@ -599,6 +599,32 @@ pre code {
   
   }
 }
+@media (max-width:320px) {
+        #mainNav .navbar-brand {
+            font-size: 0.8rem !important;
+            float: left !important;    
+        
+    }
+        #mainNav .navbar-toggler {
+            width: 100%;
+    }
+}
+@media (min-width:425px) {
+        #mainNav .navbar-brand {
+            font-size: 1.2rem !important;
+            float: left !important;     
+    }
+        .logo {
+            width: 50px;
+            margin: 15% 15% 15% 0 !important;
+    }
+}
+@media (max-width:425px) {
+        .logo {
+            width: 50px;
+            margin: 15% 15% 15% 0 !important;
+    }
+}
 @media (max-width:1200px) {
         .img-fluid-half {
             max-width: 100%;
@@ -608,7 +634,7 @@ pre code {
     } 
         .logo {
             width: 50px;
-            margin: 15%;
+            margin: 0 15% 0 0;
     }
         .navbar-brand{
         margin-right: 0% !important;
@@ -10152,6 +10178,7 @@ h3 {
   #mainNav .navbar-brand {
     font-size: 1.75em;
     transition: font-size 0.3s;
+    margin-left: 1%;
   }
   #mainNav .navbar-nav {
     margin-top: 0;
