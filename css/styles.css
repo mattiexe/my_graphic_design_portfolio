@@ -504,9 +504,6 @@ mark,
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
-
-
-
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -514,6 +511,13 @@ mark,
   border-radius: 0.5rem;
   max-width: 100%;
   height: auto;
+}
+.mail {
+    font-size: 1.25rem;
+}
+
+.mail:hover {
+    color: #1c0f1a;
 }
 
 .figure {
@@ -629,7 +633,7 @@ pre code {
             margin: 15% 15% 15% 0 !important;
     }
 }
-@media (max-width:425px) {
+@media (max-width:768px) {
         .logo {
             width: 50px;
             margin: 15% 15% 15% 0 !important;
@@ -659,6 +663,11 @@ pre code {
         .masthead{
           padding-top: calc(6rem + 74px);
         padding-bottom: 6rem;
+    }
+}
+@media (min-width:1024px) {
+         .logo {
+            margin: 0 15% 0 0;
     }
 }
 .row {
@@ -10162,8 +10171,15 @@ h3 {
 #mainNav .navbar-nav {
   margin-top: 1rem;
 }
+@media (max-width:1024px){
+    #mainNav .navbar-nav li.nav-item a.nav-link {
+        font-size: 0.8rem !important;
+    }
+}
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
+  font-size: 1rem;
+  text-align: center;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #fff;
@@ -10220,7 +10236,7 @@ h3 {
 
 .logo{
     transition: 0.3s;  
-    width: 100px;
+    width: 90px;
 }
 .navbar-shrink .logo{
     transition: 0.3s;
