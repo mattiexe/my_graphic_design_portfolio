@@ -512,12 +512,17 @@ mark,
   max-width: 100%;
   height: auto;
 }
-.mail {
+.mail{
     font-size: 1.25rem;
 }
-
+.mail{
+    font-size: 1.25rem;
+}
 .mail:hover {
     color: #1c0f1a;
+}
+.mail2:hover{
+    color: #fff;
 }
 
 .figure {
