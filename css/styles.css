@@ -6174,7 +6174,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #fa5c52 !important;
+  background-color: #ff8154 !important;
     /* fa5c52 */
     /* FE5F53 */
 }
@@ -6182,17 +6182,17 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #1c0f1a !important;
+  background-color: #db5536 !important;
 }
 
 .bg-secondary {
-  background-color: #391F34 !important;
+  background-color: #ffff !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
-  background-color: #1a252f !important;
+  background-color: #181f29 !important;
 }
 
 .bg-success {
@@ -10166,7 +10166,7 @@ h3 {
   font-size: 1rem;
 }
 #mainNav .navbar-brand {
-  color: #fff;
+  color: #181f29;
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
@@ -10177,18 +10177,18 @@ h3 {
     }
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: #181f29;
   font-size: 1rem;
   text-align: center;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #fff;
+  color: #181f29;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: #181f29;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #FBA49E;
+  color: #181f29;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10363,7 +10363,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #391F34;
+  background-color: #181f29;
   color: #fff;
 }
 
